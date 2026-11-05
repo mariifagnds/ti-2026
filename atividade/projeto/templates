@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Sistema SENAC</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a> | 
+            <a href="/cadastrar">Novo Cadastro</a>
+        </nav>
+    </header>
+    
+    <hr>
+
+    <!-- Bloco dinâmico onde as outras páginas vão injetar conteúdo -->
+    <main>
+        {% block conteudo %}
+        {% endblock %}
+    </main>
+</body>
+</html>
